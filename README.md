@@ -16,3 +16,6 @@ The database is created using sqlite and the data is scrapped from the flipkart.
 * The prices of the mobile phones will be scraped from various online markets and the search engine will allow to compare the prices of a product on different markets.
 * Machine Learning will be applied to the dataset to predict the price for the new mobile phones to be launched by a company. And thereafter, giving recommendations of the phones with best specifications at lower price.
 
+#### Screenshots:
+
+The FLIPKART_DATA.py script scrapes the data from flipkart.com Mobile Phone section and displays the total number of rows added to the database uptil now.
