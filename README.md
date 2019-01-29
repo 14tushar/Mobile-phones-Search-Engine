@@ -1,4 +1,4 @@
-# Mobile-phones-Search-Engine
+# Mobile phones Search Engine
 A database of all the mobile phones and their specifications is created using a web-scrapping script which retrieve the data from the flipkart.com website. This database is used for searching a phone by applying filters on different specifications.
 
 #### Initialization
@@ -17,5 +17,20 @@ The database is created using sqlite and the data is scrapped from the flipkart.
 * Machine Learning will be applied to the dataset to predict the price for the new mobile phones to be launched by a company. And thereafter, giving recommendations of the phones with best specifications at lower price.
 
 #### Screenshots:
-
+<div>
 The FLIPKART_DATA.py script scrapes the data from flipkart.com Mobile Phone section and displays the total number of rows added to the database uptil now.
+<img src="/assets/FLIPKART_DATA_EXECUTION.png" alt="FLIPKART_DATA.py EXECUTION" style="align="center" width="70%">
+</div>
+The database updated by the above script has 2 tables:
+<div style="margin-left:10">
+1) Mobile: Contains the Name, Price, and Rating of the mobile.
+<img src="/assets/Mobile_Table.png" alt="Mobile table in Database" align="left" width="80%">
+</div>
+<div style="margin-left:10">
+2) Specs: Contains around 140 specifications of the mobile phone.
+<img src="/assets/SPECIFICATIONS_TABLE.png" alt="Specifications table in Database" align="left" width="80%">
+</div>
+<div>
+The flipkart_search.py allows to enter the name of the mobile phone and returns the relevant results from flipkart.
+<img src="/assets/Flipkart_search_execution.png" alt="flipkart_search.py execution" align="center" width="80%">
+</div>
