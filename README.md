@@ -20,7 +20,7 @@ The code is in python3. Thus, python3 must be installed in the system to run the
 
 #### Screenshots:
 The FLIPKART_DATA.py script scrapes the data from flipkart.com Mobile Phone section and displays the total number of rows added to the database uptil now.
-![Execution of FLIPKART_DATA.py](/assets/FLIPKART_DATA_EXECUTION.png | width=200)<br /><br /><br />
+![Execution of FLIPKART_DATA.py](/assets/FLIPKART_DATA_EXECUTION.png "FLIPKART_DATA.py Execution")<br /><br /><br />
 
 The database updated by the above script has 2 tables:
 1) Mobile: Contains the Name, Price, and Rating of the mobile.
